@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>馮翊的個人網頁</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!--boxicons-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!-- header desgin -->
+    <header class="header">
+        <a href="#" class="logo">My Website</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">主頁</a>
+            <a href="#about" style="--i:2;">關於我</a>
+            <a href="#event" style="--i:3;">活動經歷</a>
+            <a href="#special" style="--i:4;">特殊經歷</a>
+        </nav>
+    </header>
+
+    <!--home section-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+			<div class="home-img">
+				<img src="me.jpg" width="500" height="auto" alt="" align="right">
+            	<style>
+            	img {
+                	border-radius: 30px;
+              	}
+            	</style>
+        	</div>
+            <h3>哈囉 我是</h3>
+            <h1>馮翊</h1>
+            <h3>我是 <span class="text"></span></h3>
+            <p>媒設系大一</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/golden.feng/" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCnuOmPti0uFDR_OYKHZmmOQ" target="_blank"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.instagram.com/dead_in_feng_hand/?hl=zh-tw" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJfnbnLQcpJvSdpRtFDSVNmWKtzqzLqlxvnrWmhlJpSNkTGXkNTKmvVhkhHhBmcLjbdSRwL" target="_blank"><i class="bx bxl-gmail" ></i></a>
+			</div>
+		</div>
+    </section>
+
+    <!--about design section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <style>
+                img {
+                    border-radius: 30px;
+                  }
+                </style>
+                <img src="me.jpg" width="500" height="auto" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">關於<span>我</span></h2>
+            <h3><br></h3>
+            <p> 對程式語言的接觸是來自小時候因為父親很喜歡遊戲的關係，早早就接觸到了電腦及電玩，且父親是一個工程師，也因為他，我在國中時開始利用零碎時間自學程式語言，也曾參與APCS和到其他單位舉辦的營隊及科技營，就是因為老師跟朋友的鼓勵，讓我確立了對程式語言的熱忱。<br><br>這個熱忱直到今天都一直保持，高一的時候進度跟課業難度更快更難，課程的彈性時間更少了，也因此，被龐大的功課掩埋，沒有太多的時間去撰寫跟理解更多程式方面的知識，我沒辦法空出時間去探索自己想要學哪些相關的東西，更是不知道自己該怎麼兼顧，為了跨越這些障礙，試過了很多方法，才稍微有一些好轉，方法是：想好學習的價值、確立未來的目標、修正錯誤的方法，當時因為疫情，學校的教育轉為線上課程，我有更多的時間能夠探索，我們每天都一直接觸Google會議，課程進出不斷，於是我開始了如何寫出一個在時間到時自動進入課程會議的軟體，也因為Youtube的演算法，讓我接觸到了人工智慧領域常出現的TensorFlow 以及 Pytorch，讓我燃起我對程式世界的興趣跟熱情，然而這些只是人工智能的九牛一毫，卻也導致我想要進入貴系致力於人工智慧的研究。<br><br>在了解自己的方向後，我在高一下時選擇成為理組的一員，精進自己對知識的了解能更進一步，並且在彈性課程中的自主學習，製作屬於自己的程式以及機器人，參與各項活動及競賽，包括了校內朗讀比賽、英語話劇、聖誕歌曲、APCS、聖誕舞蹈歌曲剪輯、多益檢測等競賽活動。</p>
+        <a href="#" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <!--events section design-->
+    <section class="event" id="event">
+        <h2 class="heading">活動及競賽<span>經歷</span></h2>
+
+        <div class="event-container">
+            <div class="event-box">
+                <i class="bx bx-notepad"></i>
+                <h3>Discord 機器人</h3>
+                <p>第一次接觸程式設計是來自通訊軟體Discord中，不同於其他如：Instagram, Line等，Discord擁有更多可以客製化的地方，開發者們能共同創造自己的作品，一起分享。當時，因為Youtube對許多熱門的音樂機器人進行封鎖，我們的語音區也因此少了聽音樂的功能，因此，我決定寫一個音樂機器人，機器人採用JavaScript，也是我的第一個最完整功能的程式作品。當時我在學校跟家裡不斷的去自學JavaScript這個語言，最終耗時兩個多月完成了能夠聽音樂的機器人。<br><br>現在回想當時「堅持不懈」的精神才是最珍貴的收穫。在這之後，我的機器人在我跟我朋友的社群上面做使用，那無法用詞句描述的「喜悅」及「感動」是對我而言最特殊的經歷。更是真正開啟了我對資訊工程的進一步了解。</p>
+                <a href="#" class="btn">了解更多</a>
+            </div>
+
+            <div class="event-box">
+                <i class="bx bx-aperture"></i>
+                <h3>英語話劇</h3>
+                <p>在我們學校，英語話劇是每一年的傳統，是讓我們能夠去團隊合作以及互相溝通，也增進我們對英文的用字遣詞，我所飾演的角色是卡普萊特夫人（Lady Capulet）兄弟提伯爾特（Tybalt），當時由於我們採用自動撥放背景樂的關係，所有時間都要算的剛好，不能有誤差，更不用說如此大規模的表演更少不了之間的摩擦，要每個人都能夠分秒不差的出場退場以及上道具，苛刻的訓練過程，難以按奈的忐忑與緊張感，讓過程非常辛苦，但在最後，我們團結，凝聚向心力完美的將一齣英語話劇完美的呈現，也為觀眾帶來不一樣的版本的羅密歐與茱麗葉，雖然最後沒有獲得冠軍，但我學會了表演時每位角色的重要性，以及幕後的團隊是多辛苦在於道具的製作以及搭配。</p>
+                <a href="#" class="btn">了解更多</a>
+            </div>
+
+            <div class="event-box">
+                <i class="bx bx-group"></i>
+                <h3>幹部及社團</h3>
+                <p>在高二上學期時曾擔任副風紀股長，在位期間我也學會如何有效管理班上的秩序，公私分明，也學會如何有自信的在台上表達對事情的想法，例如：活動及未來的規劃、處理事情的態度...等，老師才能把事情放心的給我處理，交代給我的事，我能夠有效率的做到最好。<br><br>社團方面，由於我對電腦科技的熱忱，因此高一二我都選擇成為電腦研習社的副社長兼總務長，加入的目的是為了培養自己興趣相關的領域，強化自己對所愛事務的理解。與其他社員一起製作更好的作品，無論是美化還是內容的精細度，需要的是每個人才能達成，團隊精神是最重要也最核心的價值。</p>
+                <a href="#" class="btn">了解更多</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--events more info-->
+
+    <!--special section design-->
+    <section class="special-container" id="special">
+        <h2 class="heading">特殊<span>經歷</span></h2>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-box mySwiper">
+                <div class="swiper-content swiper-wrapper">
+                    <div class="swiper-slide swiper-slide">
+                        <img src="special-1.png" alt="">
+                        <h3>NFT 元宇宙</h3>
+                        <p>因為NFT的興起，推動VR、AR以及許多虛擬世界的興起，也是我想要參加及了解的動機，這次營隊給我主要的收穫有以下<br>1.此次課程增進我對多媒體以及VR世界觀的了解以及使用，更有趣的是，利用特定圖片的特徵例如：帽子、鞋子、表情......等不同的物件創造出不一樣的作品成果，並在NFT上販售或做使用。<br>2.透過分組的方式，利用我擅長與人互動的這個個性，我們擁有比起其他組的作品更完整的目標與內容，也讓自己在這堂課程當中的收穫更加豐富與了解。<br>透過這次的營隊，我更了解VR、AR以及元宇宙的多種功能性以及為何成為現今熱門的話題，我也更加確立自己對資訊工程的熱忱，與其使用他人製作出來的軟體，不如自己創造一個獨一無二的東西，那是最完美也最珍貴的收穫</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="special-2.png" width="18" height="auto" alt="">
+                        <h3>第二外語:西班牙文</h3>
+                        <p>在高一時，當時疫情還沒有這麼嚴峻，我前往師範大學參與了進修推廣學院所舉辦的西班牙文課程，喜歡與人相處的我當時與朋友一同報名，是希望將來能有更多的機會遇見更多不一樣的朋友，這可能是來自世界各地。<br>雖然我沒辦法像一般的西班牙人一樣說的流利，但我想要透過這樣的學習模式來強化自己對其他語言的使用。<br>在報名前，我和我的朋友們對這個陌生的語言幾乎沒有接觸過，但是我們還是決定報名這個語言，因為可能在將來的某一天，有可能是出國，也可能是國際間的同學來訪，能夠以他們的母語與他們對談，更可以增添歸屬及安全感，同時，我也希望未來到大學也能夠與世界上其他學校做更多的學習來拓展視野。</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="special-1.png" alt="">
+                        <h3>NFT 元宇宙</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit praesentium rerum quae laboriosam voluptatum quisquam magni tempora eum! Quidem nisi repellendus aspernatur minus, nobis dolores reprehenderit sequi aliquid placeat non.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 馮翊製作 | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!--custom js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
