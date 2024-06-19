@@ -47,7 +47,7 @@ var typed = new Typed(".text", {
 /*======== swiper =========*/
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
-    spaceBetween: 50,
+    spaceBetween: 60,
     loop: true,
     grabCursor: true,
     pagination: {
@@ -63,9 +63,9 @@ var swiper = new Swiper(".mySwiper", {
 /*======== scroll reveal =========*/
 ScrollReveal({ 
     reset: true,
-    distance: '80px',
+    distance: '120px',
     duration: 2000,
-    delay: 200
+    delay: 200,
 });
 
 ScrollReveal().reveal('.home-content, .heading', {origin: 'top' });
